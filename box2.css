@@ -1,0 +1,100 @@
+body{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    padding: 0px;
+    border: 2px solid rgb(148, 151, 153);
+}
+
+.tulisan{
+    background-color: lightgray;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+
+.tulisan p{
+    display: flex;
+}
+
+.search{
+    background-color: lightgray;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.search ul{
+    display: flex;
+}
+
+.search li{
+    display: flex;
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 150%;
+}
+
+.search textarea{
+    display: flex;
+    color: rgb(68, 132, 172);
+    margin-left: 10px;
+    padding: 0px;
+}
+
+hr{
+    font-size: 0px;
+}
+
+main{
+    display: flex;
+}
+
+main .kotakpanjang{
+    display: flex;
+    padding: 45px 480px;
+    margin: 10px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(20, 250, 97);
+}
+
+aside{
+    float: left;
+}
+
+aside .persegi1{
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 80px 80px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(247, 247, 7);
+}
+
+aside .persegi2{
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 75px 80px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(247, 247, 7);
+}
+
+article{
+    float: right;
+}
+
+article .persegi3{
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 80px 384px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(231, 17, 17);
+}
+
+article .persegi4{
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 75px 384px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(20, 216, 241);
+}
+

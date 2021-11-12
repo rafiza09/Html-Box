@@ -1,0 +1,103 @@
+body{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    padding: 0px;
+    border: 2px solid rgb(148, 151, 153);
+}
+
+.tulisan{
+    background-color: lightgray;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+
+.tulisan p{
+    display: flex;
+}
+
+.search{
+    background-color: lightgray;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.search ul{
+    display: flex;
+}
+
+.search li{
+    display: flex;
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 150%;
+}
+
+.search textarea{
+    display: flex;
+    color: rgb(68, 132, 172);
+    margin-left: 10px;
+    padding: 0px;
+}
+
+hr{
+    font-size: 0px;
+}
+
+section .home{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    padding: 25px 70px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(247, 247, 7);
+}
+
+section .menu{
+    float: left;
+    margin: 20px;
+    margin-left: 0px;
+    padding: 25px 400px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(231, 17, 17);
+}
+
+aside .samping1{
+    float: left;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-right: 10px;
+    padding: 160px 70px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(35, 241, 87);
+}
+
+aside .samping2{
+    float: right;
+    margin-right: 25px;
+    padding: 160px 70px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(17, 217, 231);
+}
+
+article .tengah{
+    float: left;
+    margin-left: 15px;
+    margin-top: 0px;
+    padding: 160px 310px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(170, 170, 159);
+}
+
+footer .bawah{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 25px 477px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(55, 38, 207);
+}

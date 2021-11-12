@@ -1,0 +1,91 @@
+body{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    padding: 0px;
+    border: 2px solid rgb(57, 153, 231);
+    box-sizing: border-box;
+}
+
+.tulisan{
+    background-color: lightgray;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+
+.tulisan p{
+    display: flex;
+}
+
+.search{
+    background-color: lightgray;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.search ul{
+    display: flex;
+}
+
+.search li{
+    display: flex;
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 150%;
+}
+
+.search textarea{
+    display: flex;
+    color: rgb(68, 132, 172);
+    margin-left: 10px;
+    padding: 0px;
+}
+
+hr{
+    font-size: 0px;
+}
+
+.persegi{
+    display: flex;
+    margin-left: 10px;
+}
+
+.persegi .kotak1{
+    display: flex;
+    position: relative;
+    padding: 200px 80px;
+    margin: 40px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(231, 231, 20);
+}
+
+.persegi .kotak2{
+    display: flex;
+    position: relative;
+    padding: 200px 80px;
+    margin: 40px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(255, 9, 9)
+}
+
+.persegi .kotak3{
+    display: flex;
+    position: relative;
+    padding: 200px 80px;
+    margin: 40px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(93, 235, 11)
+}
+
+.persegi .kotak4{
+    display: flex;
+    position: relative;
+    padding: 200px 80px;
+    margin: 40px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(9, 235, 243)
+}
+
+@media screen 
